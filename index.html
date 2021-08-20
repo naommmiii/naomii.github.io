@@ -1,10 +1,33 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>Hello</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Naomi</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
   </head>
   <body>
+    <h1>
+      My name is Naomi. Welcome to my website.
+    </h1>
     <p>
-      hi
+      Hi! I'm Naomi, I'm a 20 year old JS & C# developer.<br />My pronouns are
+      she/her and I'm from Mexico.<br /><br />View some of my profiles by<br />selecting
+      an option from the dropdown below:
+    </p>
+    <select name="perfil" id="perfil">
+      <option value="github.com/threesodas/">GitHub</option>
+      <option value="glitch.com/@zgdev/">Glitch</option>
+      <option value="gamejolt.com/@threesodas/">GameJolt</option>
+      <option value="threesodas.itch.io">Itch.io</option>
+    </select>
+    <button onclick="locate()">
+      Go!
+    </button>
+    <p id="err">
+      
     </p>
   </body>
 </html>

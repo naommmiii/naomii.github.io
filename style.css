@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+  font-family: monospace;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 0px orange;
+}
+
+p {
+  color: pink;
+}
+
+select {
+  width: 15%;
+  background-color: #ff28ef;
+  font-family: monospace;
+  border-style: solid;
+  border-color: pink;
+  border-width: 3px;
+  border-radius: 14px;
+  text-color: white;
+}
+
+select:focus, option, option:focus {
+  outline: none;
+}
+
+button {
+  border-width: 3px;
+  border-radius: 14px;
+  border-color: pink;
+  border-style: solid;
+  background-color: #ff28ef;
+  font-family: monospace;
+}
+
+p.err {
+  text-color: red;
+  font-family: monospace;
+}
