@@ -40,3 +40,8 @@ p.err {
   text-color: red;
   font-family: monospace;
 }
+
+a, a:visited, a:hover {
+  text-decoration: none;
+  text-color: black; 
+}
