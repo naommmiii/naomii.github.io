@@ -50,3 +50,14 @@ span {
   text-color: red;
   font-family: monospace;
 }
+
+.em {
+  transition: 0.6s;
+  filter: blur(0.5rem);
+  text-color: pink;
+}
+
+.em:hover {
+  transition: 0.6s;
+  filter: blur(0px);
+}
