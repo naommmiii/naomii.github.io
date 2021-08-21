@@ -45,3 +45,8 @@ a, a:visited, a:hover {
   text-decoration: none;
   text-color: black; 
 }
+
+span {
+  text-color: red;
+  font-family: monospace;
+}
